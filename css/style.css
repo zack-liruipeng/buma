@@ -1,0 +1,244 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.btn-space {
+	margin-left: 5px;
+}
+
+#nowrap {
+	white-space:nowrap;
+}
+
+#wrap {
+	margin: 0 auto;
+}
+
+#header {
+     width:100%;
+     border:1px solid lightblue;
+	 padding-right:30px;
+	 background-color: #003699;
+	 color: #fff;
+}
+
+#nav {
+}
+
+.remove-wish {
+	display: none;
+}	
+
+#edit-wish {
+	display: none;
+}	
+
+.complete-wish {
+	display: none;
+}	
+
+.my_alert {
+	display: none;
+}	
+
+#nav li {
+	color: #fff;
+	font-weight: bold;
+	float: left
+}
+.navbar.navbar-inverse.navbar-fixed-top{
+	position: relative;
+}
+.form-control{
+	margin-top: 10px;
+}
+.forgot-control{
+	margin-top: 3px;
+	float: right;
+}
+.checkbox-control{
+	float: left;
+}
+
+.logged-align{
+	text-align: center;
+}
+.btm-new-account{
+	margin: 10px auto 0 auto;
+	display: block;
+}
+
+.budget_id,
+.expense_id,
+.wish_id {
+	display: none;
+}
+
+#new_wish {
+	display: none;
+}
+
+.txt_home_center {
+	text-align: center;
+}
+
+.wish_text{
+	float: left;
+	padding-right: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	width: 80px;
+	margin-bottom: 40px;
+}
+.wish_text h5 {
+	line-height: 30px;
+}
+.wish_progress_text{
+	text-align: center;
+}
+.page-title{
+	padding-bottom: 10px;
+}
+.wish-btn{
+	margin: 0 auto;
+	float: none;
+	width: 82px;
+	margin-top: 10px;
+}
+.btn_wish_list {
+	float: right
+}
+.btn-space.align1 {
+	float: right;
+}
+.align-bar {
+	padding-top: -5px;
+	text-align: center;
+}
+
+.edit{
+	margin-left: 10px;
+}
+.saved-text{
+	text-align: center;
+	font-size: 18px;
+}
+.progress {
+	margin-bottom: 10px;
+}
+#mian-con {
+     width:700px;
+     float:centre;
+     padding:10px 10px 20px 200px;
+     border:1px solid white;
+}
+
+.navbar-nav .navbar-text {
+	text-align: center;
+}
+
+/*#login_form .title {
+	font-weight: bold;
+	text-align: center;
+	font-size: 18px;
+}
+
+#login_form label {
+	width: 90px;
+	float: left;
+}
+
+#login_form .txt1 {
+	font-size: 14px;
+}
+
+#login_form .forgot {
+	font-size: 14px;
+	color: blue;
+	text-decoration: none;
+	float: left;
+	margin-top: 6px;
+	margin-left: 67px;
+}
+
+#login_form .sign_up {
+	font-size: 14px;
+	color: blue;
+	text-decoration: none;
+}*/
+
+.btm-new-account {
+	margin-bottom: 15px;
+}
+
+#new_category {
+	display: none;
+}
+
+#otherLabel {
+  display: none;
+}
+
+.btn_submit {
+	padding: 5px;
+	background-color: gray;
+	border: 1px solid black;
+	color: #fff;
+	cursor: pointer;
+	float: left;
+}
+
+#footer {
+     height:60px;
+	 line-height: 60px; 
+     width:100%;
+     background-color: #003699;
+	 text-align: center;
+	 color: #fff;
+}
+
+#display {
+	width:700px;
+	margin:20px 0 30px 0;
+}
+
+div.alert {
+	border-width:5px;
+    border-style:solid;	
+    border-color:Red;
+}
+
+#add_budget_form .alert,
+#login_form .alert,
+#wish_list_form .alert {
+	display: none;
+}
+	
+div.normal {
+	border:1px solid white;
+	margin:5px 0 5px 0;
+}
+.table.budgets_home td,
+.table.budgets_home th {
+	border: 0;
+	text-align: center;	
+}
+/*.tableFirstLine.warning td,
+.tableFirstLine.success td{
+	text-align: left;
+}*/
+
+.red-color {
+	color: red;
+}
+.green-color {
+	color: green;
+}

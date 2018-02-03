@@ -1,0 +1,22 @@
+h2 	
+	{	
+	text-align:center;
+	}
+h1
+	{
+	text-align:center;
+	}
+textarea
+	{
+		height:150px;
+		width:200px;
+    }
+	
+div 
+	{
+	margin:auto;
+	}
+forget
+{
+float: left;
+}

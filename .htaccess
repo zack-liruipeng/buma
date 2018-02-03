@@ -1,0 +1,22 @@
+#<IfModule mod_rewrite.c>
+	#Enable rewrite mode
+	RewriteEngine On
+	
+	#If the URL point to a file, direct to it
+	#RewriteCond %{REQUEST_FILENAME} !-f
+	
+	#If the URL point to a folder, direct to it
+	#RewriteCond %{REQUEST_FILENAME} !-d
+	
+	# All the URLs
+	RewriteRule ^(login|create_account|forgot|home|wish_list|statistics|new_account|register|logout)[/]*$ index.php?file=$1&friendly_url=true
+	
+	RewriteRule ^(add_budget)[/]*$ index.php?file=$1&friendly_url=true
+	RewriteRule ^(add_budget)[/]+(\d+)[/]*$ index.php?file=$1&id=$2&friendly_url=true
+	
+	RewriteRule ^(add_expense)[/]*$ index.php?file=$1&friendly_url=true
+	RewriteRule ^(add_expense)[/]+(\d+)[/]*$ index.php?file=$1&id=$2&friendly_url=true
+	
+	RewriteRule ^(wish_list)[/]*$ index.php?file=$1&friendly_url=true
+	RewriteRule ^(wish_list)[/]+(\d+)[/]*$ index.php?file=$1&id=$2&friendly_url=true
+#</IfModule>
