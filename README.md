@@ -6,4 +6,4 @@ Buma was written in PHP. And it is available on both mobile and website.
 
 # Application Preview
 
-![My image](https://github.com/zack-liruipeng/buma/blob/master/images/sample.png)
+![My image](https://github.com/zack-liruipeng/MovieFinder/blob/master/src/assets/img/demo.png)
